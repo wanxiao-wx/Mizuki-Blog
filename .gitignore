@@ -51,6 +51,11 @@ src/data/bangumi-data.json
 # Bilibili generated data
 src/data/bilibili-data.json
 
+# Large local archive images served from Cloudflare R2
+src/content/posts/anime-new-power-vol*/images/
+!src/content/posts/anime-new-power-vol*/images/
+!src/content/posts/anime-new-power-vol*/images/*.webp
+
 # Lighthouse CI
 .lighthouseci/
 

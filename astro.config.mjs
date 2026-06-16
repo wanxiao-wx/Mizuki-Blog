@@ -31,6 +31,50 @@ import { parseDirectiveNode } from "./src/plugins/remark-directive-rehype.js";
 import { remarkFixGithubAdmonitions } from "./src/plugins/remark-fix-github-admonitions.js";
 import { remarkMermaid } from "./src/plugins/remark-mermaid.js";
 
+function metingDevProxy() {
+	const hosts = new Set(["meting.wanxiao.ovh", "meting.xiaoshiyi.de"]);
+
+	return {
+		name: "meting-dev-proxy",
+		configureServer(server) {
+			server.middlewares.use(async (req, res, next) => {
+				const requestUrl = req.url || "";
+				if (!requestUrl.startsWith("/__meting/")) {
+					return next();
+				}
+
+				try {
+					const [host, ...pathParts] = requestUrl
+						.replace(/^\/__meting\//, "")
+						.split("/");
+					if (!hosts.has(host)) {
+						res.statusCode = 400;
+						res.end("Unsupported Meting host");
+						return;
+					}
+
+					const targetUrl = `https://${host}/${pathParts.join("/")}`;
+					const upstream = await fetch(targetUrl, {
+						headers: {
+							"user-agent":
+								req.headers["user-agent"] || "Mizuki dev server",
+						},
+					});
+					res.statusCode = upstream.status;
+					const contentType = upstream.headers.get("content-type");
+					if (contentType) {
+						res.setHeader("content-type", contentType);
+					}
+					res.setHeader("access-control-allow-origin", "*");
+					res.end(Buffer.from(await upstream.arrayBuffer()));
+				} catch (error) {
+					next(error);
+				}
+			});
+		},
+	};
+}
+
 // https://astro.build/config
 export default defineConfig({
 	site: siteConfig.siteURL,
@@ -188,7 +232,7 @@ export default defineConfig({
 		],
 	},
 	vite: {
-		plugins: [tailwindcss()],
+		plugins: [metingDevProxy(), tailwindcss()],
 		// 开发环境预打包优化：将常用依赖提前编译，避免首次页面加载时 on-demand 编译导致 8s+ 的等待
 		optimizeDeps: {
 			include: [

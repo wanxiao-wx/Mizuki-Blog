@@ -14,11 +14,13 @@ export interface DiaryItem {
 // 示例日记数据
 const diaryData: DiaryItem[] = [
 	{
-		id: 1,
-		content:
-			"The falling speed of cherry blossoms is five centimeters per second!",
-		date: "2025-01-15T10:30:00Z",
-		images: ["/images/diary/sakura.jpg", "/images/diary/1.webp"],
+		id: 2,
+		content: "和服的香香美美的",
+		date: "2026-06-12T07:00:00Z",
+		images: [
+			"/images/diary/2026-06-12-kimono-01.webp",
+			"/images/diary/2026-06-12-kimono-02.webp",
+		],
 	},
 ];
 

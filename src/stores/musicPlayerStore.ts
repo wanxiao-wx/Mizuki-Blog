@@ -287,16 +287,20 @@ class MusicPlayerStore {
 			.replace(":r", Date.now().toString());
 
 		try {
-			const res = await fetch(apiUrl);
-			if (!res.ok) {
-				throw new Error("meting api error");
-			}
-			const list: Record<string, unknown>[] = await res.json();
-			this.state.playlist = list.map((song) => this.convertMetingSong(song));
+			const list = await this.fetchMetingJson<Record<string, unknown>[]>(
+				apiUrl,
+			);
+			const site = this.getMetingSite(apiUrl, server);
+			const playlist = await Promise.all(
+				list.map((song) => this.convertMetingSong(song, site)),
+			);
+			this.state.playlist = playlist.filter((song) => song.url.trim() !== "");
 			this.state.isLoading = false;
 
 			if (this.state.playlist.length > 0) {
 				this.loadSong(this.state.playlist[0], false);
+			} else {
+				this.showError(i18n(Key.musicPlayerErrorEmpty));
 			}
 		} catch (_e) {
 			this.showError(i18n(Key.musicPlayerErrorPlaylist));
@@ -305,12 +309,86 @@ class MusicPlayerStore {
 		this.broadcastState();
 	}
 
-	private convertMetingSong(song: Record<string, unknown>): Song {
+	private async fetchMetingJson<T>(url: string): Promise<T> {
+		const urls = [url, this.getDevProxyUrl(url)].filter(
+			(value): value is string => !!value,
+		);
+		let lastError: unknown;
+
+		for (const currentUrl of urls) {
+			try {
+				const res = await fetch(currentUrl);
+				if (!res.ok) {
+					throw new Error("meting api error");
+				}
+				return (await res.json()) as T;
+			} catch (error) {
+				lastError = error;
+			}
+		}
+
+		throw lastError ?? new Error("meting api error");
+	}
+
+	private getDevProxyUrl(url: string): string | undefined {
+		if (!import.meta.env.DEV) {
+			return undefined;
+		}
+
+		try {
+			const parsed = new URL(url);
+			const supportedHosts = new Set([
+				"meting.wanxiao.ovh",
+				"meting.xiaoshiyi.de",
+			]);
+			if (!supportedHosts.has(parsed.hostname)) {
+				return undefined;
+			}
+			return `/__meting/${parsed.hostname}${parsed.pathname}${parsed.search}`;
+		} catch {
+			return undefined;
+		}
+	}
+
+	private getMetingSite(apiUrl: string, fallback: string): string {
+		try {
+			return new URL(apiUrl).searchParams.get("site") || fallback;
+		} catch {
+			return fallback;
+		}
+	}
+
+	private async resolveMetingResource(
+		kind: "pic" | "url",
+		resourceId: unknown,
+		site: string,
+	): Promise<string> {
+		if (typeof resourceId !== "string" && typeof resourceId !== "number") {
+			return "";
+		}
+
+		try {
+			const data = await this.fetchMetingJson<{ url?: unknown }>(
+				`https://meting.xiaoshiyi.de/${kind}/${resourceId}?site=${site}`,
+			);
+			return typeof data.url === "string" ? data.url : "";
+		} catch {
+			return "";
+		}
+	}
+
+	private async convertMetingSong(
+		song: Record<string, unknown>,
+		site: string,
+	): Promise<Song> {
 		const name = typeof song.name === "string" ? song.name : undefined;
 		const songTitle = typeof song.title === "string" ? song.title : undefined;
 		const title = name ?? songTitle ?? i18n(Key.unknownSong);
-		const artistField =
-			typeof song.artist === "string" ? song.artist : undefined;
+		const artistField = Array.isArray(song.artist)
+			? song.artist.filter((value) => typeof value === "string").join(" / ")
+			: typeof song.artist === "string"
+				? song.artist
+				: undefined;
 		const author = typeof song.author === "string" ? song.author : undefined;
 		const artist = artistField ?? author ?? i18n(Key.unknownArtist);
 		let dur = (song.duration as number | undefined) ?? 0;
@@ -324,6 +402,15 @@ class MusicPlayerStore {
 			dur = 0;
 		}
 
+		const cover =
+			typeof song.pic === "string"
+				? song.pic
+				: await this.resolveMetingResource("pic", song.pic_id, site);
+		const songUrl =
+			typeof song.url === "string"
+				? song.url
+				: await this.resolveMetingResource("url", song.url_id, site);
+
 		return {
 			id:
 				typeof song.id === "string"
@@ -331,8 +418,8 @@ class MusicPlayerStore {
 					: ((song.id as number | undefined) ?? 0),
 			title,
 			artist,
-			cover: (song.pic as string | undefined) ?? "",
-			url: (song.url as string | undefined) ?? "",
+			cover,
+			url: songUrl,
 			duration: dur,
 		};
 	}

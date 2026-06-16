@@ -1,49 +1,41 @@
+# 关于我
 
-This website is built with the **Astro** framework using the [Mizuki](https://github.com/LyraVoid/Mizuki) theme.
+你好，我是潇拾壹。
 
-::github{repo="LyraVoid/Mizuki"}
+一个老二次元，蜀黍啊，也曾渴望成为正义的伙伴啊。
 
-## 🌟 Theme Features
+这个网站更像我的二次元资料柜：有一点怀旧，有一点收藏癖，也有一点“既然喜欢，那就好好保存下来”的执念。
 
-### 🎨 Design & User Experience
-- **Modern & Elegant Design** - Clean, minimalist interface with beautiful typography
-- **Fully Responsive** - Optimized for all devices from mobile to desktop
-- **Dark/Light Mode** - Automatic theme switching with smooth transitions
-- **Beautiful Typography** - Enhanced readability with JetBrains Mono font
-- **Smooth Animations** - Fluid page transitions and interactive elements
+## 我在这里整理什么
 
-### 🔍 Content & Search
-- **Advanced Search** - Powered by [Pagefind](https://pagefind.app/) for fast, accurate results
-- **Enhanced Markdown** - Extended syntax with code highlighting and math support
-- **Interactive Table of Contents** - Auto-scroll navigation for long articles
-- **RSS Feed Generation** - Stay updated with automatic feed generation
-- **Reading Time Estimation** - Know how long articles take to read
-- **Post Categorization** - Organize content with tags and categories
+目前网站里最重的一部分，是《动感新势力》的整理计划。
 
+我把 001-140 期内容按统一结构重新排过：本期导读、栏目汇总、逐图整理、B 站 MTV/PV 视频选集。对我来说，这不只是把旧杂志扫描图搬上网页，而是在重新整理一段中文二次元读者共同经历过的时间。
 
+《动感新势力》有很特别的味道：新番预告、动画歌曲、排行榜、角色专题、声优栏目、DVD 发售表，还有那些现在看起来很有年代感的排版。它记录的不只是作品，也记录了我们当时怎样认识动画、怎样追番、怎样把一首 OP 或 ED 听到会心里一震。
 
-### 📱 Special Pages
-- **Anime Tracking Page** - Track your anime watching progress with ratings
-- **Friends Links Page** - Showcase friend websites with beautiful cards
-- **Diary/Moments Page** - Share life moments like social media posts
-- **Archive Page** - Organized timeline view of all posts
-- **About Page** - Customizable personal introduction (this page!)
+## 为什么做这个站
 
-### 🛠 Technical Features
-- **Enhanced Code Blocks** - Powered by [Expressive Code](https://expressive-code.com/)
-- **Math Support** - LaTeX rendering with KaTeX for mathematical expressions
-- **Image Optimization** - PhotoSwipe gallery with lazy loading
-- **SEO Optimized** - Built-in sitemap and meta tags for better search visibility
-- **Performance Optimized** - Fast loading with caching and optimization
-- **Comment System Ready** - Integration support for Twikoo comments
+因为很多东西如果不整理，就会慢慢散掉。
 
-### 🎯 Advanced Markdown Features
-- **Callouts & Admonitions** - Beautiful info boxes with `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`
-- **Mathematical Equations** - Write LaTeX math with `$inline$` and `$$block$$` syntax
-- **GitHub Cards** - Embed repository cards with `::github{repo="user/repo"}`
-- **Syntax Highlighting** - Advanced code highlighting with line numbers
-- **Copy Code Buttons** - Easy code copying functionality
+从小学看龙珠开始，一眨眼都快过去三十年了，以前看过的番、收藏过的图、喜欢过的角色、追过的杂志、循环过的歌，可能都曾经非常重要。后来生活往前走，它们会变成硬盘里的文件夹、浏览器收藏夹里的链接、B 站追番列表里的一行记录。
 
----
+所以我想把它们放到一个自己的地方。
 
-*Built with ❤️ using Astro and inspired by modern web design principles.*
+这里有文章，有追番，有相册，有日记，也有一些友链。它不是一个很严肃的资料站，也不是一个只展示技术的博客。它更像一个老二次元的个人房间：墙上贴着喜欢的角色，柜子里放着老杂志，播放器里偶尔响起很多年前的动画歌。
+
+## 关于这个人
+
+如果只用一句话介绍自己，那大概是：
+
+> 一个仍然会被动画打动的人。
+
+会喜欢漂亮的作画，也会喜欢笨拙但真诚的故事。  
+会在意角色，也会在意音乐。  
+会怀念过去，也会继续追新的番。  
+会一边说自己已经是老二次元了，一边看到喜欢的画面还是忍不住保存下来。
+
+这个网站会继续慢慢长大。  
+也许以后会有更多旧杂志整理、更多相册、更多番剧记录，也许只是偶尔写一篇日记。
+
+但只要它还在更新，就说明我还在认真喜欢这些东西。

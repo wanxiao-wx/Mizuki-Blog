@@ -65,8 +65,15 @@ const processedLinks: ProcessedNavBarLink[] = (
 							data-mobile-dropdown-trigger
 							aria-expanded="false"
 						>
-							<div class="flex items-center transition text-black/75 dark:text-white/75 font-bold">
-								{link.icon && (
+							<div class="flex items-center transition text-lg text-black/75 dark:text-white/75 font-bold">
+								{link.iconImage ? (
+									<img
+										src={url(link.iconImage)}
+										alt=""
+										class="w-[1.1rem] h-[1.1rem] mr-2 rounded-full object-cover"
+										loading="lazy"
+									/>
+								) : link.icon && (
 									<Icon
 										name={link.icon}
 										class="text-[1.1rem] mr-2"
@@ -91,8 +98,15 @@ const processedLinks: ProcessedNavBarLink[] = (
                                    hover:bg-[var(--btn-plain-bg-hover)] active:bg-[var(--btn-plain-bg-active)] transition"
 									target={child.external ? "_blank" : null}
 								>
-									<div class="flex items-center transition text-black/60 dark:text-white/60 font-medium">
-										{child.icon && (
+									<div class="flex items-center transition text-base text-black/60 dark:text-white/60 font-medium">
+										{child.iconImage ? (
+											<img
+												src={url(child.iconImage)}
+												alt=""
+												class="w-[1.1rem] h-[1.1rem] mr-2 rounded-full object-cover"
+												loading="lazy"
+											/>
+										) : child.icon && (
 											<Icon
 												name={child.icon}
 												class="text-[1.1rem] mr-2"
@@ -118,8 +132,15 @@ const processedLinks: ProcessedNavBarLink[] = (
                 "
 						target={link.external ? "_blank" : null}
 					>
-						<div class="flex items-center transition text-black/75 dark:text-white/75 font-bold">
-							{link.icon && (
+						<div class="flex items-center transition text-lg text-black/75 dark:text-white/75 font-bold">
+							{link.iconImage ? (
+								<img
+									src={url(link.iconImage)}
+									alt=""
+									class="w-[1.1rem] h-[1.1rem] mr-2 rounded-full object-cover"
+									loading="lazy"
+								/>
+							) : link.icon && (
 								<Icon
 									name={link.icon}
 									class="text-[1.1rem] mr-2"

@@ -1,0 +1,52 @@
+name: Update Bilibili Anime Data
+
+on:
+  schedule:
+    # 每天北京时间 13:30 自动刷新
+    - cron: "30 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-bilibili-anime-data
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: false
+
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Update Bilibili anime data
+        run: pnpm update-bilibili
+        env:
+          BILI_SESSDATA: ${{ secrets.BILI_SESSDATA }}
+
+      - name: Commit updated data
+        run: |
+          if git diff --quiet -- src/data/bilibili-data.json; then
+            echo "No Bilibili anime data changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/bilibili-data.json
+          git commit -m "chore: update bilibili anime data"
+          git push

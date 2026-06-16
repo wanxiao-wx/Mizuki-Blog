@@ -1,0 +1,46 @@
+---
+import { Icon } from "astro-icon/components";
+
+import { PageHeader } from "@components/features/page-header";
+import I18nKey from "@i18n/i18nKey";
+import { i18n } from "@i18n/translation";
+import MainGridLayout from "@layouts/MainGridLayout.astro";
+import { getCategoryList } from "@utils/content-utils";
+
+const categories = await getCategoryList();
+---
+
+<MainGridLayout title={i18n(I18nKey.categories)}>
+	<script>
+		import("../scripts/right-sidebar-layout.js");
+	</script>
+
+	<div class="card-base px-8 py-6">
+		<PageHeader
+			title={i18n(I18nKey.categories)}
+			subtitle="按分类浏览文章"
+		/>
+
+		<div class="grid grid-cols-[repeat(auto-fill,minmax(12rem,1fr))] gap-3">
+			{
+				categories.map((category) => (
+					<a
+						href={category.url}
+						class="flex min-h-14 items-center gap-3 rounded-[var(--radius-large)] border border-[var(--line-divider)] bg-[var(--btn-regular-bg)] px-4 py-3 text-[var(--btn-content)] transition hover:-translate-y-0.5 hover:border-[var(--primary)] hover:bg-[var(--btn-plain-bg-hover)] hover:text-[var(--primary)]"
+						aria-label={category.name}
+					>
+						<span class="inline-flex shrink-0 text-xl">
+							<Icon name="material-symbols:folder" />
+						</span>
+						<span class="min-w-0 flex-1 overflow-hidden text-ellipsis whitespace-nowrap font-bold">
+							{category.name}
+						</span>
+						<span class="min-w-7 rounded-full bg-[var(--btn-plain-bg-hover)] px-2 py-0.5 text-center text-xs font-bold text-[var(--primary)]">
+							{category.count}
+						</span>
+					</a>
+				))
+			}
+		</div>
+	</div>
+</MainGridLayout>
