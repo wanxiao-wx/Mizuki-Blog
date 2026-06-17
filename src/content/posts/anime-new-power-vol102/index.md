@@ -9,7 +9,7 @@ draft: false
 pinned: false
 licenseName: "Unlicensed"
 author: "ANPT Archive"
-image: "./images/001.webp"
+image: "https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/001.webp"
 alias: "anime-new-power-vol102"
 ---
 
@@ -47,106 +47,106 @@ Vol.102 以“BLOOD-C、NO.6 与 TIGER & BUNNY”为核心，把《BLOOD-C》、
 
 ### 封面、索引与目录
 
-![图 001](images/001.webp)
+![图 001](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/001.webp)
 图 001：封面集中呈现“BLOOD-C、NO.6 与 TIGER & BUNNY”的视觉方向，是理解本期主轴和当月宣传重点的入口。
 
-![图 002](images/002.webp)
+![图 002](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/002.webp)
 图 002：光盘索引整理影像与音乐收录内容，可快速看到 A/B 盘的动画、歌曲和特典配置。
 
-![图 003](images/003.webp)
+![图 003](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/003.webp)
 图 003：目录把新作预告、动画介绍、MTV 歌评、专题和排行串在一起，本期阅读路线由此展开。
 
 ### 新作动画与作品介绍
 
-![图 004](images/004.webp)
+![图 004](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/004.webp)
 图 004：新作与动画介绍区第 1 组，围绕《BLOOD-C》、《歌之王子殿下》、《NO.6》等内容展开，重点交代故事入口、角色阵容和播出看点。
 
-![图 005](images/005.webp)
+![图 005](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/005.webp)
 图 005：新作与动画介绍区第 2 组，围绕《BLOOD-C》、《歌之王子殿下》、《NO.6》等内容展开，重点交代故事入口、角色阵容和播出看点。
 
-![图 006](images/006.webp)
+![图 006](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/006.webp)
 图 006：新作与动画介绍区第 3 组，围绕《BLOOD-C》、《歌之王子殿下》、《NO.6》等内容展开，重点交代故事入口、角色阵容和播出看点。
 
-![图 007](images/007.webp)
+![图 007](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/007.webp)
 图 007：新作与动画介绍区第 4 组，围绕《BLOOD-C》、《歌之王子殿下》、《NO.6》等内容展开，重点交代故事入口、角色阵容和播出看点。
 
-![图 008](images/008.webp)
+![图 008](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/008.webp)
 图 008：新作与动画介绍区第 5 组，围绕《BLOOD-C》、《歌之王子殿下》、《NO.6》等内容展开，重点交代故事入口、角色阵容和播出看点。
 
-![图 009](images/009.webp)
+![图 009](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/009.webp)
 图 009：新作与动画介绍区第 6 组，围绕《BLOOD-C》、《歌之王子殿下》、《NO.6》等内容展开，重点交代故事入口、角色阵容和播出看点。
 
-![图 010](images/010.webp)
+![图 010](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/010.webp)
 图 010：新作与动画介绍区第 7 组，围绕《BLOOD-C》、《歌之王子殿下》、《NO.6》等内容展开，重点交代故事入口、角色阵容和播出看点。
 
-![图 011](images/011.webp)
+![图 011](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/011.webp)
 图 011：新作与动画介绍区第 8 组，围绕《BLOOD-C》、《歌之王子殿下》、《NO.6》等内容展开，重点交代故事入口、角色阵容和播出看点。
 
-![图 012](images/012.webp)
+![图 012](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/012.webp)
 图 012：新作与动画介绍区第 9 组，围绕《BLOOD-C》、《歌之王子殿下》、《NO.6》等内容展开，重点交代故事入口、角色阵容和播出看点。
 
-![图 013](images/013.webp)
+![图 013](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/013.webp)
 图 013：新作与动画介绍区第 10 组，围绕《BLOOD-C》、《歌之王子殿下》、《NO.6》等内容展开，重点交代故事入口、角色阵容和播出看点。
 
 ### MTV 歌评与专题正文
 
-![图 014](images/014.webp)
+![图 014](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/014.webp)
 图 014：MTV 歌评与作品资料区第 1 组，将主题歌、画面气质和作品情绪放在一起阅读。
 
-![图 015](images/015.webp)
+![图 015](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/015.webp)
 图 015：MTV 歌评与作品资料区第 2 组，将主题歌、画面气质和作品情绪放在一起阅读。
 
-![图 016](images/016.webp)
+![图 016](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/016.webp)
 图 016：MTV 歌评与作品资料区第 3 组，将主题歌、画面气质和作品情绪放在一起阅读。
 
-![图 017](images/017.webp)
+![图 017](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/017.webp)
 图 017：MTV 歌评与作品资料区第 4 组，将主题歌、画面气质和作品情绪放在一起阅读。
 
-![图 018](images/018.webp)
+![图 018](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/018.webp)
 图 018：MTV 歌评与作品资料区第 5 组，将主题歌、画面气质和作品情绪放在一起阅读。
 
-![图 019](images/019.webp)
+![图 019](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/019.webp)
 图 019：专题“夏季新番与 TIGER & BUNNY”的延伸内容，补充角色关系、制作背景和当期话题的纵深。
 
-![图 020](images/020.webp)
+![图 020](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/020.webp)
 图 020：专题“夏季新番与 TIGER & BUNNY”的延伸内容，补充角色关系、制作背景和当期话题的纵深。
 
-![图 021](images/021.webp)
+![图 021](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/021.webp)
 图 021：专题“夏季新番与 TIGER & BUNNY”的延伸内容，补充角色关系、制作背景和当期话题的纵深。
 
-![图 022](images/022.webp)
+![图 022](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/022.webp)
 图 022：专题“夏季新番与 TIGER & BUNNY”的延伸内容，补充角色关系、制作背景和当期话题的纵深。
 
-![图 023](images/023.webp)
+![图 023](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/023.webp)
 图 023：专题“夏季新番与 TIGER & BUNNY”的延伸内容，补充角色关系、制作背景和当期话题的纵深。
 
-![图 024](images/024.webp)
+![图 024](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/024.webp)
 图 024：专题“夏季新番与 TIGER & BUNNY”的延伸内容，补充角色关系、制作背景和当期话题的纵深。
 
-![图 025](images/025.webp)
+![图 025](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/025.webp)
 图 025：专题“夏季新番与 TIGER & BUNNY”的延伸内容，补充角色关系、制作背景和当期话题的纵深。
 
 ### 排行、茶座与收束栏目
 
-![图 026](images/026.webp)
+![图 026](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/026.webp)
 图 026：动画排行与销售区之一，记录当月作品、角色或歌曲热度的变化。
 
-![图 027](images/027.webp)
+![图 027](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/027.webp)
 图 027：动画排行与销售区之二，继续补充榜单、发售信息和市场反馈。
 
-![图 028](images/028.webp)
+![图 028](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/028.webp)
 图 028：动心茶座栏目，以轻松话题缓冲前面密集的新作和专题内容。
 
-![图 029](images/029.webp)
+![图 029](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/029.webp)
 图 029：星座、角色趣谈或杂志轻栏目，保留当年动画杂志特有的闲聊气息。
 
-![图 030](images/030.webp)
+![图 030](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/030.webp)
 图 030：茶座延伸内容，继续用生活化角度连接动画、角色和当月小话题。
 
-![图 031](images/031.webp)
+![图 031](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/031.webp)
 图 031：尾段轻栏目补充，与排行和茶座一起构成本期收束段落。
 
-![图 034](images/034.webp)
+![图 034](https://img.wanxiao.ovh/src/content/posts/anime-new-power-vol102/images/034.webp)
 图 034：staff、下期预告或后段资料，记录编辑阵容、制作信息和下一期方向。
 
 ## B站 MTV/PV 视频选集
