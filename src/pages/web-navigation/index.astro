@@ -1,24 +1,17 @@
 ---
-import { getEntry, render } from "astro:content";
 import Comment from "@components/comment/index.astro";
 import FriendCard from "@components/features/friends/FriendCard.astro";
 import { PageHeader } from "@components/features/page-header";
-import Markdown from "@components/misc/Markdown.astro";
 import MainGridLayout from "@layouts/MainGridLayout.astro";
 
 import { getShuffledWebNavigationList } from "../../data/web-navigation";
 
 export const prerender = true;
 
-const navigationPost = await getEntry("spec", "web-navigation");
-
-if (!navigationPost) {
-	throw new Error("web navigation page content not found");
-}
-
-const { Content } = await render(navigationPost);
 const navigationList = getShuffledWebNavigationList();
-const allTags = Array.from(new Set(navigationList.flatMap((item) => item.tags)));
+const allTags = Array.from(
+	new Set(navigationList.flatMap((item) => item.tags)),
+);
 ---
 
 <MainGridLayout title="网页导航" description="网页导航">
@@ -101,10 +94,6 @@ const allTags = Array.from(new Set(navigationList.flatMap((item) => item.tags)))
 					未找到匹配的网站
 				</p>
 			</div>
-
-			<Markdown class="mt-8 prose dark:prose-invert max-w-none">
-				<Content />
-			</Markdown>
 
 			<div id="friends-copy-success-text" style="display: none;">
 				已复制

@@ -170,12 +170,6 @@ export const navBarConfig: NavBarConfig = {
 					external: true,
 					icon: "material-symbols:monitoring",
 				},
-				{
-					name: "Sun-panel",
-					url: "https://sun.wanxiao.ovh",
-					external: true,
-					icon: "material-symbols:dashboard",
-				},
 			],
 		},
 

@@ -1,9 +1,485 @@
 {
+	"mode": "external",
 	"title": "EVA",
 	"description": "勇敢的少女们去追求真爱吧",
 	"date": "2026-06-12",
 	"location": "Pixiv",
-	"tags": ["明日香", "绫波丽", "EVA"],
+	"tags": [
+		"明日香",
+		"绫波丽",
+		"EVA"
+	],
 	"layout": "masonry",
-	"columns": 3
+	"columns": 3,
+	"cover": "https://img.wanxiao.ovh/images/albums/eva/eva-local-cover.webp",
+	"photos": [
+		{
+			"id": "eva-01",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-01.webp",
+			"alt": "EVA 01",
+			"title": "EVA 01",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 976
+		},
+		{
+			"id": "eva-02",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-02.webp",
+			"alt": "EVA 02",
+			"title": "EVA 02",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 976
+		},
+		{
+			"id": "eva-03",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-03.webp",
+			"alt": "EVA 03",
+			"title": "EVA 03",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 976
+		},
+		{
+			"id": "eva-04",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-04.webp",
+			"alt": "EVA 04",
+			"title": "EVA 04",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1080,
+			"height": 529
+		},
+		{
+			"id": "eva-05",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-05.webp",
+			"alt": "EVA 05",
+			"title": "EVA 05",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1080,
+			"height": 720
+		},
+		{
+			"id": "eva-06",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-06.webp",
+			"alt": "EVA 06",
+			"title": "EVA 06",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 1016
+		},
+		{
+			"id": "eva-07",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-07.webp",
+			"alt": "EVA 07",
+			"title": "EVA 07",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 1016
+		},
+		{
+			"id": "eva-08",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-08.webp",
+			"alt": "EVA 08",
+			"title": "EVA 08",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 1016
+		},
+		{
+			"id": "eva-09",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-09.webp",
+			"alt": "EVA 09",
+			"title": "EVA 09",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 976
+		},
+		{
+			"id": "eva-10",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-10.webp",
+			"alt": "EVA 10",
+			"title": "EVA 10",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 976
+		},
+		{
+			"id": "eva-11",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-11.webp",
+			"alt": "EVA 11",
+			"title": "EVA 11",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 976
+		},
+		{
+			"id": "eva-12",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-12.webp",
+			"alt": "EVA 12",
+			"title": "EVA 12",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 976
+		},
+		{
+			"id": "eva-13",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-13.webp",
+			"alt": "EVA 13",
+			"title": "EVA 13",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 1024
+		},
+		{
+			"id": "eva-14",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-14.webp",
+			"alt": "EVA 14",
+			"title": "EVA 14",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 1040
+		},
+		{
+			"id": "eva-15",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-15.webp",
+			"alt": "EVA 15",
+			"title": "EVA 15",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 1016
+		},
+		{
+			"id": "eva-16",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-16.jpg",
+			"alt": "EVA 16",
+			"title": "EVA 16",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 976
+		},
+		{
+			"id": "eva-17",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-17.webp",
+			"alt": "EVA 17",
+			"title": "EVA 17",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1080,
+			"height": 603
+		},
+		{
+			"id": "eva-18",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-18.webp",
+			"alt": "EVA 18",
+			"title": "EVA 18",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 976
+		},
+		{
+			"id": "eva-19",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-19.webp",
+			"alt": "EVA 19",
+			"title": "EVA 19",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 976
+		},
+		{
+			"id": "eva-20",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-20.webp",
+			"alt": "EVA 20",
+			"title": "EVA 20",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 976
+		},
+		{
+			"id": "eva-21",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-21.webp",
+			"alt": "EVA 21",
+			"title": "EVA 21",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 976
+		},
+		{
+			"id": "eva-22",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-22.webp",
+			"alt": "EVA 22",
+			"title": "EVA 22",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 976
+		},
+		{
+			"id": "eva-23",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-23.webp",
+			"alt": "EVA 23",
+			"title": "EVA 23",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 976
+		},
+		{
+			"id": "eva-24",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-24.webp",
+			"alt": "EVA 24",
+			"title": "EVA 24",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 1144
+		},
+		{
+			"id": "eva-25",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-25.webp",
+			"alt": "EVA 25",
+			"title": "EVA 25",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 976
+		},
+		{
+			"id": "eva-26",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-26.webp",
+			"alt": "EVA 26",
+			"title": "EVA 26",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 976
+		},
+		{
+			"id": "eva-27",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-27.webp",
+			"alt": "EVA 27",
+			"title": "EVA 27",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 976
+		},
+		{
+			"id": "eva-28",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-28.webp",
+			"alt": "EVA 28",
+			"title": "EVA 28",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 976
+		},
+		{
+			"id": "eva-29",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-29.webp",
+			"alt": "EVA 29",
+			"title": "EVA 29",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 1328
+		},
+		{
+			"id": "eva-30",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-30.webp",
+			"alt": "EVA 30",
+			"title": "EVA 30",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1992,
+			"height": 1224
+		},
+		{
+			"id": "eva-local-01",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-local-01.webp",
+			"alt": "EVA local 01",
+			"title": "EVA local 01",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1711,
+			"height": 2200
+		},
+		{
+			"id": "eva-local-02",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-local-02.webp",
+			"alt": "EVA local 02",
+			"title": "EVA local 02",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1787,
+			"height": 2200
+		},
+		{
+			"id": "eva-local-03",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-local-03.webp",
+			"alt": "EVA local 03",
+			"title": "EVA local 03",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1086,
+			"height": 1400
+		},
+		{
+			"id": "eva-local-04",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-local-04.webp",
+			"alt": "EVA local 04",
+			"title": "EVA local 04",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1280,
+			"height": 1280
+		},
+		{
+			"id": "eva-local-05",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-local-05.webp",
+			"alt": "EVA local 05",
+			"title": "EVA local 05",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1556,
+			"height": 2200
+		},
+		{
+			"id": "eva-local-06",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-local-06.webp",
+			"alt": "EVA local 06",
+			"title": "EVA local 06",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1800,
+			"height": 1165
+		},
+		{
+			"id": "eva-local-07",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-local-07.webp",
+			"alt": "EVA local 07",
+			"title": "EVA local 07",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1256,
+			"height": 2200
+		},
+		{
+			"id": "eva-local-08",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-local-08.webp",
+			"alt": "EVA local 08",
+			"title": "EVA local 08",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1256,
+			"height": 2200
+		},
+		{
+			"id": "eva-local-09",
+			"src": "https://img.wanxiao.ovh/images/albums/eva/eva-local-09.webp",
+			"alt": "EVA local 09",
+			"title": "EVA local 09",
+			"tags": [
+				"EVA"
+			],
+			"date": "2026-06-20",
+			"width": 1016,
+			"height": 2200
+		}
+	]
 }
